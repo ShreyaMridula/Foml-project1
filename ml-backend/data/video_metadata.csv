@@ -1,0 +1,6 @@
+video_id,title,description,thumbnail_url,video_url
+82,Learn Python,"A quick crash course in Python programming","https://yourcdn.com/thumbnails/82.png","https://yourcdn.com/videos/82.mp4"
+41,TensorFlow Beginner,"Introductory tutorial for TensorFlow","https://yourcdn.com/thumbnails/41.png","https://yourcdn.com/videos/41.mp4"
+11,Deep Learning Basics,"Understand fundamentals of deep learning","https://yourcdn.com/thumbnails/11.png","https://yourcdn.com/videos/11.mp4"
+72,FastAPI Crash Course,"Learn to build APIs with FastAPI","https://yourcdn.com/thumbnails/72.png","https://yourcdn.com/videos/72.mp4"
+32,Machine Learning 101,"Basic concepts of Machine Learning","https://yourcdn.com/thumbnails/32.png","https://yourcdn.com/videos/32.mp4"
