@@ -1,0 +1,89 @@
+.account-page {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .account-container {
+    background-color: #222;
+    border-radius: 8px;
+    padding: 40px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .account-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #7f00ff; /* Purple */
+  }
+  
+  .profile-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+    background-color: #444;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .profile-pic input {
+    position: absolute;
+    opacity: 0;
+  }
+  
+  .user-info {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .info-item {
+    margin-bottom: 15px;
+  }
+  
+  .info-item label {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .info-item input {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+  }
+  
+  .save-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #7f00ff; /* Purple */
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .save-btn:hover {
+    background-color: #9b33ff;
+  }
+  

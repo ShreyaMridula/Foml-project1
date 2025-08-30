@@ -1,0 +1,86 @@
+.watch-page {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+
+.video-section video{
+  width: 100%;
+  height: auto;
+  max-height: 80vh; /* optional: limits height on tall screens */
+  display: block;
+  border-radius: 8px; /* optional: for rounded corners */
+  margin-bottom: 16px;
+}
+.video-section {
+  flex: 1;
+  padding-right: 16px; /* spacing between video and sidebar */
+}
+
+.video-title {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.meta-bar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.actions button {
+  margin-left: 10px;
+}
+
+.description {
+  margin-top: 10px;
+  color: #ccc;
+}
+
+.comments {
+  margin-top: 30px;
+}
+
+.comments textarea {
+  width: 100%;
+  padding: 10px;
+  background: #222;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 4px;
+}
+
+.comments button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #7b5cd6;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+.comment-item {
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px solid #333;
+}
+
+.comment-time {
+  font-size: 0.75rem;
+  color: #777;
+}
+
+.related-videos {
+  width: 25%;
+  min-width: 200px;
+}

@@ -1,0 +1,28 @@
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  .video-card {
+    background-color: #1c1c1c;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .video-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
+  
+  .thumbnail {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .video-info {
+    padding: 0.5rem;
+  }
+  
